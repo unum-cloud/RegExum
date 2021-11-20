@@ -1,6 +1,6 @@
-# NetworkXum
+# RegExum
 
-NetworkXum is [NetworkX](https://github.com/networkx/networkx)-like interface for large persistent graphs stored inside DBMS. This lets you upscale from Megabyte-Gigabyte graphs to Terabyte-Petabyte graphs (that won't fit into RAM), without changing your code. We provide wrappers for following DBs:
+NetworkXum is Python wrapper that simplifies text search for Terabyte and Petabyte-scale textual datasets stored in one of the following DBMS:
 
 * [MongoDB](#mongodb) - modern (yet mature) distributed document DB with good performance in most workloads
 * [Neo4J](#neo4j) - disturbingly slow and unstable DBMS positioned as the go-to Graph database,
@@ -10,9 +10,6 @@ NetworkXum is [NetworkX](https://github.com/networkx/networkx)-like interface fo
 
 ## Project Structure
 
-* [networkxum](networkxum) - Python wrappers for Graph (Network) datastructures backed by persistent DBs.
-* [benchmarks](benchmarks) - benchmarking tools and performance results.
-* [assets](assets) - tiny datasets for testing purposes.
 * [regexum](PyStorageTexts) - Python wrappers for search-able containers backed by persistent DBs.
 * [benchmarks](benchmarks) - benchmarking tools and performance results.
 * [assets](assets) - tiny datasets for testing purposes.
